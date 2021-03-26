@@ -1,0 +1,4 @@
+include ':tracking'
+include ':tracking'
+include ':app'
+rootProject.name = "TrackingModule"

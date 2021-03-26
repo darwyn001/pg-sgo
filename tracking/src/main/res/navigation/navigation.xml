@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/trackingFragment">
+
+    <fragment
+        android:id="@+id/trackingFragment"
+        android:name="com.ssasa.tracking.fragment.TrackingFragment"
+        android:label="fragment_tracking"
+        tools:layout="@layout/fragment_tracking">
+        <action
+            android:id="@+id/action_trackingFragment_to_trackingDetailFragment"
+            app:destination="@id/trackingDetailFragment">
+            <argument
+                android:name="Gestion"
+                android:defaultValue="@null"
+                app:argType="com.ssasa.tracking.pojo.Gestion"
+                app:nullable="true" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/trackingDetailFragment"
+        android:name="com.ssasa.tracking.fragment.TrackingDetailFragment"
+        android:label="fragment_tracking_detail"
+        tools:layout="@layout/fragment_tracking_detail">
+        <argument
+            android:name="Gestion"
+            app:argType="com.ssasa.tracking.pojo.Gestion" />
+    </fragment>
+</navigation>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_gestion_number">Número de gestión:</string>
+    <string name="lbl_client_name">Nombre del cliente:</string>
+    <string name="lbl_status">Estado:</string>
+    <string name="lbl_tracking">Historial</string>
+</resources>
