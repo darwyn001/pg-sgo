@@ -13,11 +13,6 @@
         <action
             android:id="@+id/action_trackingFragment_to_trackingDetailFragment"
             app:destination="@id/trackingDetailFragment">
-            <argument
-                android:name="Gestion"
-                android:defaultValue="@null"
-                app:argType="com.ssasa.tracking.pojo.Gestion"
-                app:nullable="true" />
         </action>
     </fragment>
     <fragment
@@ -25,8 +20,5 @@
         android:name="com.ssasa.tracking.fragment.TrackingDetailFragment"
         android:label="fragment_tracking_detail"
         tools:layout="@layout/fragment_tracking_detail">
-        <argument
-            android:name="Gestion"
-            app:argType="com.ssasa.tracking.pojo.Gestion" />
     </fragment>
 </navigation>

@@ -29,11 +29,16 @@ public class MainActivity extends AppCompatActivity {
     private Fragment getTrackingFragment() {
         ArrayList<Gestion> mainData = new ArrayList<>(
                 Arrays.asList(
-                        new Gestion("Amigo 1", "HOLAAAAA", 1, 0),
-                        new Gestion("Amigo 2", "HOLAAAAA", 2, 1),
-                        new Gestion("Amigo 3", "HOLAAAAA", 3, 2),
-                        new Gestion("Amigo 4", "HOLAAAAA", 4, 3),
-                        new Gestion("Amigo 5", "HOLAAAAA", 5, 4)
+                        new Gestion("Comercial", "Creación de solicitúd", 1, 0),
+                        new Gestion("Legal", "Creación de entidad legal", 2, 1),
+                        new Gestion("Legal", "Registro tributario", 3, 2),
+                        new Gestion("Legal", "Registro de patente", 3, 2),
+                        new Gestion("Lógistica", "Envio de mobiliario", 4, 3),
+                        new Gestion("It", "Creación de usuarios y permisos", 5, 4),
+                        new Gestion("It", "Creación de almacenes", 5, 4),
+                        new Gestion("It", "Instalación de infraestructura", 5, 4),
+                        new Gestion("It", "Instalación de equipo de computo", 5, 4),
+                        new Gestion("It", "Instalación de CCTV", 5, 4)
                 )
         );
 
